@@ -1,0 +1,36 @@
+{
+  "language": "JavaScript",
+  "standards": [
+    {
+      "name": "Variable Naming",
+      "description": "Use descriptive and meaningful names for variables.",
+      "examples": ["let firstName = 'John';", "const age = 25;"]
+    },
+    {
+      "name": "Indentation",
+      "description": "Use consistent indentation with 2 or 4 spaces.",
+      "examples": ["function calculateSum(a, b) {", "  return a + b;", "}"]
+    },
+    {
+      "name": "Function Declarations",
+      "description": "Use function declarations instead of function expressions.",
+      "examples": ["function greet() {", "  console.log('Hello!');", "}"]
+    },
+    {
+      "name": "Comments",
+      "description": "Use comments to explain complex logic or provide context.",
+      "examples": ["// This function calculates the sum of two numbers.", "function calculateSum(a, b) {", "  return a + b;", "}"]
+    },
+    {
+      "name": "Error Handling",
+      "description": "Handle errors gracefully and provide meaningful error messages.",
+      "examples": ["try {", "  // Code that may throw an error", "} catch (error) {", "  console.error('An error occurred:', error);", "}"]
+    },
+    {
+      "name": "Accessing Local/Session Storage",
+      "description": "Access local or session storage using globalCommonUtilityService.getValueFromStorageXXX.",
+      "examples": ["const value = globalCommonUtilityService.getValueFromStorageXXX('key');"]
+    },
+    { "name": "Constants", "description": "Use uppercase letters for constants.", "examples": ["const PI = 3.14159;", "const MAX_VALUE = 100;"] }
+  ]
+}
